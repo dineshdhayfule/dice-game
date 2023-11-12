@@ -1,0 +1,84 @@
+.container {
+  width: 70%;
+  margin: auto;
+  text-align: center;
+}
+
+.dice {
+  text-align: center;
+  display: inline-block;
+
+}
+
+body {
+  background-color: #393E46;
+}
+
+h1 {
+  margin: 30px;
+  font-family: 'Lobster', cursive;
+  text-shadow: 6px 0 #151a20;
+  font-size: 5rem;
+  color: #4ECCA3;
+}
+
+p {
+  font-size: 2rem;
+  color: #4ECCA3;
+  font-family: 'Indie Flower', cursive;
+}
+
+img {
+  width: 80%;
+}
+
+span {
+  color: rgba(255, 1, 1, 0.795);
+}
+
+.btn {
+  margin-top: 60px;
+}
+
+#button,
+#button1 {
+  width: 250px;
+  height: 60px;
+  font-size: 1.8rem;
+  font-family: 'Lobster', cursive;
+  font-weight: 800;
+  background-color: #3b424b;
+  color: whitesmoke;
+  padding: 10px;
+  margin-right: 20px;
+  justify-content: center;
+
+}
+
+#button1:hover {
+  border: 2px dashed rgb(250, 249, 249);
+  background-color: #454b57;
+}
+
+#button:hover {
+  border: 2px dashed white;
+  background-color: #454b57;
+}
+
+#btreset {
+  width: 200px;
+  height: 55px;
+  font-size: 1.8rem;
+  font-family: 'Lobster', cursive;
+  font-weight: 800;
+  background-color: #393E46;
+  color: whitesmoke;
+  padding: 5px;
+  margin-top: 50px;
+}
+
+#btreset:hover {
+  background-color: #4ECCA3;
+  color: #232931;
+  border: 3px solid black;
+}
