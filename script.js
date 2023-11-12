@@ -8,7 +8,7 @@ var randomNumber2;
 var randomImage2;
 var image2;
 
-    document.getElementById('btreset').setAttribute("style", "visibility:visible");
+document.getElementById('btreset').setAttribute("style", "visibility:hidden");
 
 startButton.addEventListener('click', () => {
     randomNumber1 = Math.floor(Math.random() * 6) + 1;
