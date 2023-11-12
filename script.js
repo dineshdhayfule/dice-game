@@ -1,4 +1,15 @@
-
+    var player1 = "Player 1"; 
+    var player2 = "Player 2"; 
+  
+    // Function to change the player name 
+    function editNames() { 
+        player1 = prompt("Change Player1 name"); 
+        player2 = prompt("Change player2 name"); 
+  
+        document.querySelector("p.Player1").innerHTML = player1; 
+        document.querySelector("p.Player2").innerHTML = player2; 
+    }
+editNames();
 let startButton = document.getElementById('button');
 let startButton1 = document.getElementById('button1');
 let startButton2 = document.getElementById('btreset');
