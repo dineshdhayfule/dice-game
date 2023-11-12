@@ -6,8 +6,8 @@
         player1 = prompt("Change Player1 name"); 
         player2 = prompt("Change player2 name"); 
   
-        document.querySelector("p.Player1").innerHTML = player1; 
-        document.querySelector("p.Player2").innerHTML = player2; 
+        document.querySelector("player1").innerHTML = player1; 
+        document.querySelector("player2").innerHTML = player2; 
     }
 
 let startButton = document.getElementById('button');
