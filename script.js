@@ -9,7 +9,7 @@
         document.querySelector("p.Player1").innerHTML = player1; 
         document.querySelector("p.Player2").innerHTML = player2; 
     } 
-
+editNames();
 let startButton = document.getElementById('button');
 let startButton1 = document.getElementById('button1');
 let startButton2 = document.getElementById('btreset');
