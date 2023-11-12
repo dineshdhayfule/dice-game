@@ -48,7 +48,7 @@ startButton1.addEventListener('click', () => {
 });
 
 startButton2.addEventListener('click', () => {
-    window.location.reload();
+    // window.location.reload();
     editNames();
 });
 
