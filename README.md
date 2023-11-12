@@ -1,4 +1,4 @@
-Dicee Game
+# Dicee Game
 
 
 Welcome to the Dicee Game project! This simple web-based game allows you to roll a pair of virtual dice and see the outcome. It's a fun way to make decisions or play a quick game of chance. This project is built using HTML, CSS, and JavaScript.
