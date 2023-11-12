@@ -5,9 +5,10 @@
     function editNames() { 
         player1 = prompt("Change Player1 name"); 
         player2 = prompt("Change player2 name"); 
-  
-        document.querySelector("player1").innerHTML = player1; 
-        document.querySelector("player2").innerHTML = player2; 
+   
+        document.getElementById("player1").innerHTML = player1;
+        document.getElementById("player2").innerHTML = player2;
+
     }
 
 let startButton = document.getElementById('button');
